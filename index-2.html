@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="./style-2.css">
+</head>
+
+<body>
+    <!-- bootstrap model -->
+
+    <!-- Button trigger modal -->
+    <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-signup">
+        sign-up
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade"  id="modal-signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <!--  -->
+                    <div class="logo-image d-flex justify-content-center">
+                        <img src="./Products listing page/logo.png" alt="logo" width="150px">
+                    </div>
+                    <div class="login-wrap">
+                        <div class="login-html">
+                            <input id="tab1" type="radio" name="logintab" class="sign-in" checked>
+                            <label for="tab1"
+                                class="tab">LOGIN</label>
+                            <input id="tab2" type="radio" name="logintab" class="sign-up"checked><label for="tab2"
+                                class="tab">CREATE ACCOUNT</label>
+
+
+                            <!-- login -->
+                            <div class="login-form margin-top-10">
+                                <div class="sign-in-htm">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1" class="required">Email</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="required">Password</label>
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" aria-label="Email"
+                                                    aria-describedby="basic-addon1">
+                                                <span class="input-group-text" id="basic-addon1"><i
+                                                        class="fa fa-eye field-icon"></i></span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-warning" type="button">SIGN IN</button>
+                                            <button class="btn btn-outline-secondary" type="button">FORGOT YOUR
+                                                PASSWORD?</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="sign-up-htm">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1" class="required">Username</label>
+                                            <input type="text" class="form-control" id="exampleInputUsername"
+                                                aria-describedby="emailHelp">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1" class="required">Email</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="required">Password</label>
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" aria-label="Email"
+                                                    aria-describedby="basic-addon1">
+                                                <span class="input-group-text" id="basic-addon1"><i
+                                                        class="fa fa-eye field-icon"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-warning" type="button">CREATE ACCOUNT</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center margin-top-20">
+                                <p>Or Login With</p>
+                            </div>
+                            <div class="d-flex ">
+                                <ul class="social-network">
+                                    <li><button type="button" class="btn btn-primary"><i
+                                                class="fa fa-facebook field-icon"></i> Facebook</button></li>
+
+                                    <li><button type="button" class="btn btn-info"><i
+                                                class="fa fa-twitter field-icon"></i>
+                                            Twitter</button></li>
+                                    <li><button type="button" class="btn btn-danger"><i
+                                                class="fa fa-google field-icon"></i>
+                                            Google</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.login-form .sign-in-htm,
+.login-form .sign-up-htm{
+    display: none;
+}
+
+.sign-in,
+.sign-up {
+    display: none;
+}
+.sign-in:checked~  .login-form .sign-in-htm,
+.sign-up:checked~ .login-form .sign-up-htm {
+    display: block;
+}
+
+.login-html label.tab {
+    width: 45%;
+    text-align: center;
+    background-color: #aaa;
+    height: 40px;
+    color: #444;
+    line-height: 40px;
+}
+
+
+.login-html label {
+    font-weight: 500;
+}
+
+.login-html .sign-in:checked + label.tab,
+.login-html .sign-up:checked + label.tab {
+    background-color: white;
+    color: #fd7e14;
+}
+ul li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
